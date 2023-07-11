@@ -1,0 +1,7 @@
+version: "3"  # optional since v1.27.0
+services:
+  nginx:
+    image: nginx:alpine
+    volumes:
+      - ./configs/${PORTAINER_EDGE_ID}:/gitrepo
+    
