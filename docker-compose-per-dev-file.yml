@@ -3,5 +3,6 @@ services:
   nginx:
     image: nginx:alpine
     volumes:
-      - ./configs/${PORTAINER_EDGE_ID}.conf1:/gitrepo
+      - ./configs/${PORTAINER_EDGE_ID}.conf1:/conf1
+      - ./configs/${PORTAINER_EDGE_ID}.conf2:/conf2
     
