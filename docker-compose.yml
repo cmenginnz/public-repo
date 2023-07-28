@@ -1,4 +1,4 @@
-version: "3"  # optional since v1.27.0
+version: "3"  # optional since v1.27.0 v1
 services:
   nginx:
     image: nginx:alpine
