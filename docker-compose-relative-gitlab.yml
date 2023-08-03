@@ -1,7 +1,7 @@
 version: "3"  # optional since v1.27.0
 services:
   nginx:
-    image: registry.gitlab.com/samdulam/biz.container/nginx:latest
+    image: registry.gitlab.com/portainer.demo/testing.dots/nginx:latest
     volumes:
       - ./:/gitrepo
     
