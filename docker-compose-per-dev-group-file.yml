@@ -3,5 +3,5 @@ services:
   nginx:
     image: nginx:alpine
     volumes:
-      - ./configs/${EDGE_GROUP}.conf:/conf1
+      - ./configs/${PORTAINER_EDGE_GROUP}.conf:/conf1
     

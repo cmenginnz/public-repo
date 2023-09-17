@@ -4,5 +4,5 @@ services:
     image: nginx:alpine
     volumes:
       - ./configs/${PORTAINER_EDGE_ID}:/git-edge-id
-      - ./configs/${EDGE_GROUP}:/git-edge-group
+      - ./configs/${PORTAINER_EDGE_GROUP}:/git-edge-group
     
