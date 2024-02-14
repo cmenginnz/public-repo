@@ -3,6 +3,5 @@ services:
   nginx:
     environment:
       - DEBUG1=${var1}
-      - DEBUG1=${var1_label}
     image: nginx:alpine
     
